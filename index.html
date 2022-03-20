@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="theme-color" content="#34a853">
+	<meta name="description" content="Minimalistic Clock UI with dark and light theme.">
+	<title>Clock</title>
+</head>
+
+<body>
+	<section class="clock-container">
+		<div class="clock">
+			<div class="center-point"></div>
+			<div class="needle hour"></div>
+			<div class="needle minute"></div>
+			<div class="needle second"></div>
+			<div class="numbers"></div>
+		</div>
+		<div class="time-container">
+			<span class="time"></span>
+			<span class="switch 12">
+				<span class="material-icons">schedule</span>
+			</span>
+		</div>
+		<div class="date"></div>
+	</section>
+	<div class="theme">
+		<span class="material-icons" id="light">light_mode</span>
+		<span class="material-icons" id="dark">dark_mode</span>
+	</div>
+	<script src="./app.js"></script>
+	<script src="./theme.js"></script>
+</body>
+
+</html>
