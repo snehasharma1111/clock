@@ -20,4 +20,4 @@ The Clock has 2 themes: light and dark.
 
 You can switch between both themes by clicking on the top icon sun/moon.
 
-[Contact the Developer](https://snehasharma1111.github.io/akshatmittal61/)
+[Contact the Developer](https://snehasharma1111.github.io/)
